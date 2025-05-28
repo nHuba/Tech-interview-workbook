@@ -127,3 +127,29 @@ A TDD (Test-Driven Development) fejlesztőközpontú, míg a BDD (Behavior-Drive
 Az API tesztelés a backend logikát ellenőrzi, gyorsabb és megbízhatóbb, mint a felületi tesztelés.
 #### ✅ Mi az adatvezérelt tesztelés és miért hasznos?
 Adatvezérelt tesztelésben ugyanaz a teszt különböző adatokkal fut, hatékonyabb és kevesebb kódismétlést igényel.
+
+#### ✅ Mi az adatvezérelt tesztelés és miért hasznos?
+Adatvezérelt tesztelés egy szoftvertesztelési módszer, amelyben a tesztadatokat táblázat vagy táblázat formájában tárolják. Az adatvezérelt tesztelés lehetővé teszi a tesztelők számára, hogy egyetlen tesztszkriptet vigyenek be, amely képes tesztelni egy tábla összes tesztadatát, és a tesztkimenetet ugyanabban a táblában várja. Táblázatvezérelt tesztelésnek vagy paraméterezett tesztelésnek is nevezik.
+#### ✅ Mik a kihívások és ajánlott eljárások a dinamikusan betöltött webes elemekkel?
+Használjunk modern technikákat, például a Fetch API-t a hagyományos AJAX helyett, a jobb olvashatóság és teljesítmény érdekében.
+Kezeljük a hibákat és szélsőséges eseteket, hogy zökkenőmentes felhasználói élményt nyújthass.
+Optimalizáljuk a dinamikus tartalom betöltését, hogy elkerüld a teljesítménybeli bottleneck-elést.
+#### ✅ Mik a mobil tesztautomatizálás kihívásai?
+A különböző mobilalkalmazás típusok
+Operációs rendszerek és böngészők
+Kijelző méret
+Hálózattípus és sebesség problémák
+Gyorsan változó felhasználói követelmények
+## Haladó témák
+<img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/05/DevOps-in-a-Selenium-Testing.png" alt="image" width="320" height="220">
+
+#### ✅ Mi a különbség a CI és CD között?
+A CI/CD tesztelés egy olyan folyamat, amely automatizáltan teszteli a szoftverfejlesztés során beképzett kódváltoztatásokat. A CI (Continuous Integration) biztosítja a kódforrás automatikus integrációját és tesztelését, a CD (Continuous Delivery/Deployment) pedig automatizáltan szállítja a szoftvert, tesztkörnyezetbe vagy élő környezetbe. A cél a gyorsabb, megbízhatóbb és minőségibb szoftverfejlesztés és -szállítás.
+#### ✅ Írj le egy Continuous Delivery folyamatot!
+A CI folyamat után automatizáltan szállítja (Delivery) vagy telepíti (Deployment) a szoftvert egy tesztkörnyezetbe vagy a végfelhasználóknak elérhető környezetbe. A Delivery során a szoftver egy tesztkörnyezetben tesztelésre kerül, míg a Deployment során közvetlenül az élő környezetbe kerül.
+#### ✅ Hasonlítsd össze két népszerű CI rendszert, ezek közül az egyik legyen a Jenkins!
+Jenkins egy nyílt forráskódú Continuous Integration szerver Java a folyamatos integrációs folyamat automatizált módon történő megvalósítása érdekében. A Jenkins támogatja a szoftverek teljes fejlesztési életciklusát, a szoftverfejlesztéstől, teszteléstől, dokumentálástól, telepítéstől és a szoftverfejlesztési életciklus egyéb szakaszaitól kezdve.
+#### ✅ Mi a Docker és miért hasznos?
+A Docker egy platform-szolgáltatási (PaaS) termékcsalád, amely operációs rendszer szintű virtualizációt használ a szoftverek konténernek nevezett csomagokban történő szállításához.A szolgáltatásnak ingyenes és prémium szintje is van. A konténereket üzemeltető szoftvert Docker Engine-nek hívják.[6] Első verzióját 2013-ban adták ki, és a Docker, Inc. fejleszti.
+A Docker egy olyan eszköz, amely az alkalmazások könnyűsúlyú konténerekben történő telepítését automatizálja, így az alkalmazások különböző környezetekben elszigetelten és hatékonyan működhetnek.
+https://en.wikipedia.org/wiki/Docker_(software)
